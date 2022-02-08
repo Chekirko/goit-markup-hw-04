@@ -211,6 +211,15 @@ img {
   margin-right: var(--card-set-gap);
 }
 
+.features .thumb {
+  margin-bottom: 30px;
+}
+
+.features .icon {
+  width: 270px;
+  height: 120px;
+}
+
 .features .title {
   color: var(--title-text-color);
 
@@ -267,20 +276,48 @@ img {
 }
 
 .people .title {
-  color: var(--title-text-color);
+  margin-bottom: 10px;
 
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-
-  margin-bottom: 10px;
 }
 
 .people .text {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.people .links {
+  display: flex;
+}
+
+.links .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.clients .section-title {
+  margin-bottom: 50px;
+}
+
+.companies {
+  display: flex;
+}
+
+.companies .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.companies .icon {
+  display: block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 /* footer styles */
